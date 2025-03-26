@@ -1,0 +1,64 @@
+{
+  "business_metrics": {
+    "total_businesses": 2,
+    "new_businesses_30d": 0,
+    "avg_age": 7.526351813826146,
+    "business_types": {
+      "RESTAURANT": 1,
+      "RETAIL": 1
+    },
+    "license_statistics": {
+      "active": 2,
+      "pending": 0,
+      "expired": 0
+    }
+  },
+  "property_metrics": {
+    "total_properties": 2,
+    "avg_assessment": 475000.0,
+    "median_assessment": 475000.0,
+    "assessment_range": {
+      "min": 450000.0,
+      "max": 500000.0
+    },
+    "zoning_distribution": {
+      "C1": 2
+    },
+    "property_types": {
+      "COMMERCIAL": 2
+    }
+  },
+  "development_metrics": {
+    "active_permits": {
+      "total": 2,
+      "by_type": {
+        "RENOVATION": 1,
+        "CHANGE_OF_USE": 1
+      }
+    },
+    "construction_value": 100000.0,
+    "development_areas": {
+      "C1": 2
+    },
+    "recent_changes": {
+      "new_construction": 0,
+      "renovations": 1,
+      "changes_of_use": 1
+    }
+  },
+  "geographic_metrics": {
+    "business_density": {
+      "Downtown": 2
+    },
+    "property_values": {
+      "Downtown": 475000.0
+    },
+    "development_hotspots": [],
+    "market_clusters": []
+  },
+  "visualizations": {
+    "business_types": "reports/business_types.png",
+    "property_values": "reports/property_values.png",
+    "development_activity": "reports/development_activity.png"
+  }
+}

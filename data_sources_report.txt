@@ -1,0 +1,123 @@
+===== MidcoastLeads Data Collectors Report =====
+Generated at: /Users/bendickinson/Desktop/MidcoastLeads
+Project root: /Users/bendickinson/Desktop/MidcoastLeads
+
+Found 33 potential collector files:
+  - business_collector.py
+  - property_collector.py
+  - brunswick_business_collector.py
+  - gis_collector.py
+  - federal_data_collector.py
+  - tax_map_crawler.py
+  - supplementary_extractors.py
+  - brunswick_business_data_collector.py
+  - gis_formats.py
+  - brunswick_license_collector.py
+  - brunswick_data_collector.py
+  - vision_collector.py
+  - foreclosure_collector.py
+  - site_specific_extractors.py
+  - utility_collector.py
+  - brunswick_resource_collector.py
+  - base_collector.py
+  - deed_collector.py
+  - property_use_collector.py
+  - commitment_book_collector.py
+  - vgsi_collector.py
+  - smart_crawler.py
+  - census_collector.py
+  - tax_map_collector.py
+  - advanced_extractors.py
+  - brunswick_data.py
+  - brunswick_gis.py
+  - brunswick_collector.py
+  - geographic_collector.py
+  - url_finder.py
+  - permit_collector.py
+  - core_extractors.py
+  - tax_record_collector.py
+
+Examining module: src.collectors.business_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.property_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.brunswick_business_collector
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.gis_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.federal_data_collector
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.tax_map_crawler
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.supplementary_extractors
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.brunswick_business_data_collector
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.gis_formats
+  - ❌ Failed to import module: No module named 'geopandas'
+Examining module: src.collectors.brunswick_license_collector
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.brunswick_data_collector
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.vision_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.foreclosure_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.site_specific_extractors
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.utility_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.brunswick_resource_collector
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.base_collector
+  - Found collector class: BaseCollector
+Examining module: src.collectors.deed_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.property_use_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.commitment_book_collector
+  - ❌ Error examining module: expected 'except' or 'finally' block (commitment_book_collector.py, line 382)
+Examining module: src.collectors.vgsi_collector
+  - ❌ Failed to import module: No module named 'pandas'
+Examining module: src.collectors.smart_crawler
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.census_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.tax_map_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.advanced_extractors
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.brunswick_data
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.brunswick_gis
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.brunswick_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.geographic_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.url_finder
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.permit_collector
+  - ❌ Failed to import module: No module named 'requests'
+Examining module: src.collectors.core_extractors
+  - ❌ Failed to import module: No module named 'aiohttp'
+Examining module: src.collectors.tax_record_collector
+  - ❌ Failed to import module: No module named 'requests'
+
+Total collector classes found: 1
+
+===== Collector Capabilities =====
+
+BaseCollector (from src.collectors.base_collector):
+  Collection methods:
+    - collect: Base collection method to be implemented by specific collectors
+
+===== Key Collectors Status =====
+GISCollector: ❌ Not Found
+TaxMapCollector: ❌ Not Found
+VGSICollector: ❌ Not Found
+CommitmentBookCollector: ❌ Not Found
+BrunswickPDFCollector: ❌ Not Found
+SchoolDataCollector: ❌ Not Found
+
+Scanning completed successfully!

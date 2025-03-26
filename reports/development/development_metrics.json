@@ -1,0 +1,28 @@
+{
+  "total_permits": 3,
+  "total_value": 350000,
+  "permit_types": {
+    "RENOVATION": {
+      "count": 1,
+      "value": 75000
+    },
+    "NEW_CONSTRUCTION": {
+      "count": 1,
+      "value": 250000
+    },
+    "CHANGE_OF_USE": {
+      "count": 1,
+      "value": 25000
+    }
+  },
+  "neighborhood_activity": {
+    "Downtown": {
+      "permits": 2,
+      "value": 100000
+    },
+    "Pleasant Street": {
+      "permits": 1,
+      "value": 250000
+    }
+  }
+}

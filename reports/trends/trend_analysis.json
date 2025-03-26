@@ -1,0 +1,33 @@
+{
+  "business_trends": {
+    "total_businesses": 12,
+    "new_businesses_30d": 0,
+    "avg_age": 5.138945927446954,
+    "business_types": {},
+    "license_statistics": {
+      "active": 0,
+      "pending": 0,
+      "expired": 0
+    }
+  },
+  "property_trends": {
+    "total_properties": 0,
+    "avg_assessment": 0,
+    "median_assessment": 0,
+    "assessment_range": {
+      "min": 0,
+      "max": 0
+    },
+    "zoning_distribution": {},
+    "property_types": {}
+  },
+  "market_indicators": {
+    "business_growth": 12,
+    "property_value": 0,
+    "active_licenses": 0
+  },
+  "visualizations": {
+    "business_growth": "reports/business_growth.png",
+    "property_values": "reports/property_values.png"
+  }
+}

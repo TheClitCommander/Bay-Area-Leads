@@ -1,0 +1,77 @@
+{
+    "maine_counties": {
+        "sagadahoc": {
+            "registry_url": "",
+            "foreclosure_url": "",
+            "gis_url": "",
+            "towns": {
+                "bath": {
+                    "tax_assessor_url": "",
+                    "town_clerk_url": "",
+                    "tax_maps_url": "",
+                    "property_cards_url": "",
+                    "utility_records_url": "",
+                    "building_permits_url": "",
+                    "rental_registry_url": "",
+                    "business_licenses_url": ""
+                },
+                "topsham": {
+                    "tax_assessor_url": "",
+                    "town_clerk_url": "",
+                    "tax_maps_url": "",
+                    "property_cards_url": "",
+                    "utility_records_url": "",
+                    "building_permits_url": "",
+                    "rental_registry_url": "",
+                    "business_licenses_url": ""
+                }
+            }
+        },
+        "cumberland": {
+            "registry_url": "",
+            "foreclosure_url": "",
+            "gis_url": "",
+            "towns": {
+                "brunswick": {
+                    "tax_assessor_url": "",
+                    "town_clerk_url": "",
+                    "tax_maps_url": "",
+                    "property_cards_url": "",
+                    "utility_records_url": "",
+                    "building_permits_url": "",
+                    "rental_registry_url": "",
+                    "business_licenses_url": ""
+                },
+                "harpswell": {
+                    "tax_assessor_url": "",
+                    "town_clerk_url": "",
+                    "tax_maps_url": "",
+                    "property_cards_url": "",
+                    "utility_records_url": "",
+                    "building_permits_url": "",
+                    "rental_registry_url": "",
+                    "business_licenses_url": ""
+                }
+            }
+        }
+    },
+    "state_resources": {
+        "business": {
+            "secretary_of_state_search": "",
+            "professional_licenses": "",
+            "corporation_search": "",
+            "ucc_filings": ""
+        },
+        "maine": {
+            "foreclosure_listings": "",
+            "gis_portal": "",
+            "property_tax_portal": "",
+            "deed_search": ""
+        }
+    },
+    "federal_resources": {
+        "census_api_endpoint": "https://api.census.gov/data",
+        "fema_flood_maps": "https://hazards.fema.gov/gis/nfhl/rest/services",
+        "census_api_key": ""
+    }
+}

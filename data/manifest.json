@@ -1,0 +1,25 @@
+{
+  "raw": {
+    "commitment_books": {
+      "20250220_105909_tmpsx9dz509.pdf": {
+        "original_name": "tmpsx9dz509.pdf",
+        "path": "/Users/bendickinson/CascadeProjects/MidcoastLeads/data/raw/commitment_books/20250220_105909_tmpsx9dz509.pdf",
+        "hash": "0dcf956c1d53e610e880ab173e957a1748d72175ae030474b2b8caad9289210c",
+        "added_date": "2025-02-20T10:59:09.901611",
+        "metadata": {
+          "source_url": "https://www.brunswickme.gov/DocumentCenter/View/9924/2024-Real-Estate-Commitment-Book",
+          "year": "2024"
+        }
+      }
+    },
+    "tax_maps": {},
+    "sales_books": {},
+    "gis_data": {}
+  },
+  "processed": {
+    "properties": {},
+    "assessments": {},
+    "maps": {}
+  },
+  "temp": {}
+}

@@ -1,0 +1,16 @@
+{
+  "total_businesses": 3,
+  "license_status": {
+    "active": 3,
+    "other": 0
+  },
+  "business_types": {
+    "RESTAURANT": 1,
+    "LODGING": 1,
+    "RETAIL": 1
+  },
+  "neighborhood_distribution": {
+    "Downtown": 2,
+    "Pleasant Street": 1
+  }
+}

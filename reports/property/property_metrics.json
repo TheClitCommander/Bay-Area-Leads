@@ -1,0 +1,16 @@
+{
+  "total_properties": 3,
+  "average_assessment": 566666.6666666666,
+  "zoning_distribution": {
+    "C1": 2,
+    "C2": 1
+  },
+  "property_types": {
+    "COMMERCIAL": 3
+  },
+  "permit_types": {
+    "RENOVATION": 1,
+    "NEW_CONSTRUCTION": 1,
+    "CHANGE_OF_USE": 1
+  }
+}

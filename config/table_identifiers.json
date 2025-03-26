@@ -1,0 +1,18 @@
+{
+    "property_tables": {
+        "parcel_id": ["parcel", "map", "lot", "tax id", "account"],
+        "owner_name": ["owner", "name", "taxpayer"],
+        "property_address": ["location", "address", "property address", "situs"],
+        "assessment": ["assessed", "total value", "valuation"],
+        "land_value": ["land value", "land assessment"],
+        "building_value": ["building value", "improvement value", "building assessment"],
+        "tax_amount": ["tax amount", "total tax", "tax due"],
+        "acreage": ["acres", "acre", "land size", "lot size"]
+    },
+    "tax_tables": {
+        "due_date": ["due date", "payment date"],
+        "amount_due": ["amount due", "payment amount", "tax due"],
+        "status": ["status", "payment status"],
+        "year": ["tax year", "fiscal year", "year"]
+    }
+}
