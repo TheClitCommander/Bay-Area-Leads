@@ -1,6 +1,6 @@
-# MidcoastLeads - Advanced Real Estate Lead Generation System
+# Bay-Area-Leads: Midcoast Real Estate Lead Generation System
 
-A comprehensive system for collecting, processing, analyzing, and visualizing real estate data to identify investment opportunities.
+A comprehensive system for collecting, processing, analyzing, and visualizing real estate data to identify investment opportunities in the Midcoast region.
 
 ## Features
 
@@ -71,8 +71,8 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/MidcoastLeads.git
-cd MidcoastLeads
+git clone https://github.com/TheClitCommander/Bay-Area-Leads.git
+cd Bay-Area-Leads
 ```
 
 2. Create a virtual environment:
@@ -157,7 +157,7 @@ Key configuration options:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU GPL License - see the LICENSE file for details.
 
 ## Acknowledgments
 
