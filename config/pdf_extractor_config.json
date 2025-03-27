@@ -1,0 +1,53 @@
+{
+  "date_patterns": [
+    "(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+\\d{1,2}(?:st|nd|rd|th)?,\\s+\\d{4}",
+    "(?:\\d{1,2}/\\d{1,2}/\\d{2,4})",
+    "(?:\\d{1,2}-\\d{1,2}-\\d{2,4})",
+    "(?:\\d{1,2}\\.\\d{1,2}\\.\\d{2,4})"
+  ],
+  "auction_triggers": [
+    "(?:public auction)",
+    "(?:foreclosure auction)",
+    "(?:foreclosure sale)",
+    "(?:auction date)",
+    "(?:sale date)",
+    "(?:to be sold at)",
+    "(?:will be sold at public auction)",
+    "(?:will sell at public auction)",
+    "(?:hereby gives notice that said property will be sold at public auction)"
+  ],
+  "redemption_triggers": [
+    "(?:right to redeem)",
+    "(?:redemption period)",
+    "(?:right of redemption)",
+    "(?:may redeem until)",
+    "(?:redeem the property until)",
+    "(?:redeem on or before)",
+    "(?:period of redemption)"
+  ],
+  "notice_triggers": [
+    "(?:notice of sale)",
+    "(?:notice of foreclosure)",
+    "(?:notice of default)",
+    "(?:notice of public sale)",
+    "(?:notice of trustee)",
+    "(?:notice of mortgagee's sale)"
+  ],
+  "state_specific_rules": {
+    "ME": {
+      "redemption_period_days": 90,
+      "typical_auction_delay_days": 30,
+      "description": "Maine typically has a 90-day redemption period for foreclosures"
+    },
+    "NH": {
+      "redemption_period_days": 0,
+      "typical_auction_delay_days": 25,
+      "description": "New Hampshire is a non-judicial foreclosure state with no redemption period"
+    },
+    "MA": {
+      "redemption_period_days": 0,
+      "typical_auction_delay_days": 21,
+      "description": "Massachusetts is a non-judicial foreclosure state with no redemption period"
+    }
+  }
+}
